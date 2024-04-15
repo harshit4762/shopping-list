@@ -16,6 +16,10 @@ body {
   background-color: #f5f5f5;
 }
 
+img {
+  width: 20%;
+}
+
 header {
   display: flex;
   justify-content: flex-start;
@@ -24,7 +28,7 @@ header {
 }
 
 header h1 {
-  font-weight: 300;
+  font-weight: 800;
   margin-left: 10px;
 }
 
@@ -34,7 +38,7 @@ header h1 {
   padding: 20px;
 }
 
-.edit-mode{
+.edit-mode {
   color: #ccc;
 }
 
@@ -102,10 +106,17 @@ header h1 {
 
 .text-red {
   color: red;
+  background-color: #d9d9d9;
+  padding: 0px 8px 0px 8px;
+  border-radius: 10px;
+}
+
+.text-red:hover {
+  background-color: #7d7d7d;
+  color: white;
 }
 
 /* Items */
-
 .items {
   margin-top: 20px;
   display: flex;
@@ -114,6 +125,7 @@ header h1 {
 
 .items li {
   display: flex;
+  background-color: #ededed;
   justify-content: space-between;
   width: 45%;
   border: 1px solid #ccc;
